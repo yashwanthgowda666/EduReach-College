@@ -1,5 +1,4 @@
-import { Router , Routes, Route } from "react-router-dom";
-import { Toaster } from "react-hot-toast";
+import {  Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
