@@ -1,4 +1,5 @@
-import {  Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 import { AuthProvider } from "./context/AuthContext";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
@@ -30,6 +31,7 @@ export default function App() {
         <Route path="/signup" element={<SignupPage />} />
       </Routes>
       <FloatingChatButton />
+      <Toaster position="top-center" toastOptions={{ duration: 4000 }} />
   </AuthProvider>
 );
 }

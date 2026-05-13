@@ -31,7 +31,8 @@ export default function SignupPage() {
       toast.success("Account created! Welcome to EduReach.");
       navigate("/");
     } catch (err: any) {
-      toast.error(err.response?.data?.message || "Registration failed");
+      const message = err.response?.data?.message || "Something went wrong. Please try again.";
+      toast.error(message);
     } finally {
       setLoading(false);
     }

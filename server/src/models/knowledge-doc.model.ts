@@ -33,4 +33,4 @@ const KnowledgeDoc = mongoose.model<IKnowledgeDoc>(
   "KnowledgeDoc",
   knowledgeDocSchema
 );
-export default KnowledgeDoc;
+export default KnowledgeDoc;    
