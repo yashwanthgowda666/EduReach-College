@@ -351,7 +351,7 @@ Frontend-only auth is never real security.
 ## Screenshots
 
 ### Homepage
-<img src="screenshots/homepage-logged-in.png" width="900">
+<img src="screenshots/homepage.png" width="900">
 
 ### AI Chat and Voice Call
 
