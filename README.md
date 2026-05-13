@@ -350,13 +350,13 @@ Frontend-only auth is never real security.
 
 ## Screenshots
 
-| Homepage (Visitor) | Homepage (Logged In) |
+| Homepage |
 |---|---|
-| Gated content below Mentors | Full content visible |
+| <img src="screenshots/homepage.png" width="450">  |
 
 | AI Chat | Voice Call |
 |---|---|
-| Floating chat button | Call popup state machine |
+| <img src="screenshots/ai-chat.png" width="450"> | <img src="screenshots/voice-call.png" width="450"> |
 
 ---
 
